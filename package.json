@@ -23,5 +23,8 @@
   "description": "",
   "dependencies": {
     "slidev-theme-neversink": "^0.4.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.15.0"
   }
 }
