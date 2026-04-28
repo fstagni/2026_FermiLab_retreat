@@ -1,0 +1,27 @@
+{
+  "name": "2026_FermiLab_retreat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "slidev build --download",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fstagni/2026_FermiLab_retreat.git"
+  },
+  "keywords": [
+    "diracx",
+    "FermiLab2026"
+  ],
+  "author": "Federico Stagni",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fstagni/2026_FermiLab_retreat/issues"
+  },
+  "homepage": "https://github.com/fstagni/2026_FermiLab_retreat#readme",
+  "description": "",
+  "dependencies": {
+    "slidev-theme-neversink": "^0.4.0"
+  }
+}
