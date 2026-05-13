@@ -535,7 +535,7 @@ title: hackathons
 - every Thursday morning, 10:00 CERN time, a "Ddev" meeting of 1 hour takes place
   - Hosted by the SCRUM master (Alexandre Boyer).
 - every 4 to 5 weeks, a "Dops" meeting of 1 hour takes place just before the Ddev.
-  - Hosted by the technical coordinator (Federico). A more high-level view meeting, targeted at admins.
+  - Hosted by the technical coordinator. A more high-level view meeting, targeted at admins.
 
 
 ### [**Hackathons and Workshops**](https://indico.cern.ch/category/20884/)
@@ -927,7 +927,11 @@ title: DiracXTS
 In general, there are still several things to decide. I believe that, at a minimum:
 - the current DIRAC Transformation System will serve as base.
 - Several of the goodies from LHCb DIRAC Analysis Productions system will be integrated in the DiracX Production (Workflows) system.
+  - you hears about them yesterday in Ryunosuke's presentation
 - We will use CWL for describing production requests and transformations.
+
+<br>
+<br>
 
 This is a good time to inject (your!) requirements.
 
@@ -970,7 +974,7 @@ align: lm
 
 # DiracX extensions
 
-A very important concept also for DiracX is its extensibility. Full documentation on the left!
+A very important concept also for DiracX is its extensibility. Full documentation on the left (pointing [here](https://diracx.diracgrid.org/en/latest/dev/explanations/extensions/))!
 
 We provide a reference implementation of an extension (dubbed "Gubbins").
 
@@ -992,28 +996,8 @@ DIRAC is often operated as a multi-VO instance. This is the case for most of the
 Especially useful for small-to-medium size VOs, which usually just need basic functionalities ("I just want to submit jobs"). Often these installations do not provide production system functionalities.
 
 DiracX is multi-VO from the get-go.
-(the frame on the right is pointing to a related DiracX documentation)
+(the frame on the right is [pointing to](https://diracx.diracgrid.org/en/latest/admin/how-to/install/register-a-vo/) related DiracX documentation)
 
-
-
----
-layout: iframe-left
-title: multi-VO
-url: https://diracx.diracgrid.org/en/latest/admin/how-to/install/register-a-vo/
-class: webAPI
-slide_info: false
-color: gray-light
-align: lm
----
-
-# Multi-VO DiracX
-
-DIRAC is often operated as a multi-VO instance. This is the case for most of the VOs using DIRAC (you have seen this is the case also for FCC).
-
-Especially useful for small-to-medium size VOs, which usually just need basic functionalities ("I just want to submit jobs"). Often these installations do not provide production system functionalities.
-
-DiracX is multi-VO from the get-go.
-(the frame on the left is pointing to a related DiracX documentation)
 
 
 ---
@@ -1037,6 +1021,7 @@ In general, DIRAC has a very active community of users and developers.
 
 - DiracX is "the neXt Dirac incarnation", ensuring the future of the widely used DIRAC.
   - It will live together with DIRAC v9 for a while, until it will replace it completely
+  - It's developed by a superset of the current DIRAC developers
 - DiracX production system is "not yet there", but DIRAC's one is. We (think we) know how to make it
   - All DiracX users are invited to participate to it
 
